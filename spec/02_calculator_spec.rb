@@ -54,7 +54,7 @@ describe "#multiply" do
 
   it "multiplies two other numbers, one of them being 0" do
     # one last test, with 0 in it
-    expect(multiply(5, 10)).to eq(50)
+    expect(multiply(0, 10)).to eq(0)
   end
 
 end
